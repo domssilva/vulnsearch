@@ -6,7 +6,7 @@
 
 ##### Sources
 
-[youtube playlist](https://www.youtube.com/watch?v=ijalD2NkRFg&list=TLGGd1THSOMpO40yOTA2MjAxOQ)
+[youtube playlist](https://www.youtube.com/playlist?list=PLee3sU0037ys6EjinZMIZzJPYGl3vUYRV)
 
 ___
 
