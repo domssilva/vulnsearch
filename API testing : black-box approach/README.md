@@ -82,7 +82,6 @@ reading the examples we see that one thing is in common with all requests: `http
 
 and the only part that changes between the requests is what comes after this API url, so those are the **endpoints**.
 
-
 ```
 
 https://api.openaq.org/v1/cities
@@ -103,7 +102,7 @@ ttps://api.openaq.org/v1/fetches
 
 Since I'm interested in using the `location` field I will focus on reading the explanation about it.
 
-![](https://github.com/nessun00x/vulnsearch/raw/master/static/images/img.png?raw=true)
+![documentation print](https://github.com/nessun00x/vulnsearch/blob/master/static/images/api_docs.png?raw=true)
 
 `https://api.openaq.org/v1/locations`
 
@@ -252,7 +251,7 @@ Don't rely on searching only in their official repository, some employees store 
 
 however if there is an official repo for the API pay extra attention to the issues section
 
-![](github-issues.png)
+![github issues repository tab](https://github.com/nessun00x/vulnsearch/blob/master/static/images/github-issues.png?raw=true)
 
 ### if you can't find anything
 
@@ -260,14 +259,12 @@ manual browse the app while burp catches everything. click on everything, visit 
 
 For example take a look at my burp map of a program that I am working on:
 
-![burp map print]()
+![](https://github.com/nessun00x/vulnsearch/blob/master/static/images/burp_map.png?raw=true)
 
 As you can see sometimes APIs will be hidden inside directories, that's why it's so important to always manually check all the app's structure. 
 So keep that in mind and don't always expect that APIs endpoints will be just `wwww.example-corp.com/api`
 
 send them all to intruder, repeater but wait: don't FUZZ them yet!
-
-![burp map displaying api structure](https://github.com/nessun00x/vulnsearch/raw/master/static/images/burp_map.png?raw=true)
 
 ### the pre-attack phase
 
