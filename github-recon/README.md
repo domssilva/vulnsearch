@@ -1600,3 +1600,5 @@ _02ddd67d5586_key=
 _8382f1c42598_iv=
 ```
 
+### Good Reads 
+http://10degres.net/github-tools-collection/
