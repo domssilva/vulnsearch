@@ -1601,5 +1601,5 @@ _8382f1c42598_iv=
 ```
 
 ### Good Reads 
-http://10degres.net/github-tools-collection/
+http://10degres.net/github-tools-collection/  
 https://addictivehackers.blogspot.com/2019/08/from-github-recon-to-account-takeover.html
