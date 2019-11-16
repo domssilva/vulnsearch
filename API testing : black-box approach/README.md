@@ -17,10 +17,10 @@ ___
 API = Application Programming Interface (just a fancy name)
 
 You will see many definitions on the web about what an API is but I don't like them, they make it sound like it's rocket science when in reality it is not.  
-An **API is just a program that lets you interact with data**. That's it.
+An **API is just a program that lets you interact with data or functions**. That's it.
 
 You make a request -->  
-API responds with data <--
+API responds with data/function <--
 
 The majority of APIs require authentication as a way of securing, tracking and limiting *who* is accessing their data.
 

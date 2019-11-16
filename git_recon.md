@@ -1,7 +1,5 @@
 ## Manual Approach
 
-## Tips
-
 - wayback machine
 - google dork
 - js files
@@ -11,10 +9,23 @@ Map the application to have a better understanding of the technologies being use
 note a certain type of files being used more frequently than others... 
 On the wayback machine you can find old files that are still being hosted on the web app, with google dork
 you can search for specific extensions and by looking at js files/comments while source code reviewing you can
-find paths and filenames to explore and get new ideas for your github recon
+find paths and filenames to explore and get new ideas for your git recon
 
-## Keywords from : [bugcrowd talk ok github recon](https://www.youtube.com/watch?v=l0YsEk_59fQ)
+## Explore beyond github
+Github is not the only repository hosting service out there, it is the most popular one but developers can use
+different alternatives too:
 
+- travis ci
+- gitlab
+- bitbucket
+- beanstalk
+- sourceforge
+- aws codecommit
+
+
+[![Finding Sensitive Information Lea](https://img.youtube.com/vi/l0YsEk_59fQ/0.jpg)](https://www.youtube.com/watch?v=l0YsEk_59fQ "Finding Sensitive Information Leaks - click to watch")
+
+## Keywords from the video
 |   Search Term                         |  Results Expected          |
 |---------------------------------------| -------------------------- |
 | "Company" security_credentials        | LDAP                              |
@@ -23,7 +34,12 @@ find paths and filenames to explore and get new ideas for your github recon
 | "Company" ssh2_auth_password          | Unauthorized Access to Servers    |
 | "Company" send_keys or send, keys     | keywords related to password fail |
 
-## Keywords : [random-robbie github](https://github.com/random-robbie/keywords/blob/master/keywords.txt)
+### Good Reads 
+- [github tools collection](http://10degres.net/github-tools-collection/)  
+- [from github recon to account takeover](https://addictivehackers.blogspot.com/2019/08/from-github-recon-to-account-takeover.html)  
+- [Edoverflow research on CI](https://edoverflow.com/2019/ci-knew-there-would-be-bugs-here/)
+
+## More Keywords : [random-robbie github](https://github.com/random-robbie/keywords/blob/master/keywords.txt)
 
 ```
 #=
@@ -1599,7 +1615,3 @@ ZZiigPX7RCjq5XHbzUpPpMbC8MFxT2K3jcFXUitfwZvNaZXJIiK3ZQJU4ayKaegLvI91x1SqH0=
 _02ddd67d5586_key=
 _8382f1c42598_iv=
 ```
-
-### Good Reads 
-http://10degres.net/github-tools-collection/  
-https://addictivehackers.blogspot.com/2019/08/from-github-recon-to-account-takeover.html
