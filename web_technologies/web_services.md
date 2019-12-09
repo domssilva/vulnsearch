@@ -14,8 +14,6 @@ The [programamble web](https://en.wikipedia.org/wiki/ProgrammableWeb) is the sam
 
 Once a web browser has submited its HTTP request it needs to render the response in a way a human being can understand. A web service client doesn't have this luxury. it's programmed in advance, so it has to be both the web browser that fetches the data and the "human" who decides what the data means.
 
-![programamble web - wheel of protocols](https://www.programmableweb.com/wp-content/5k-protocols.png)
-
 Imagine the programmable web as an ecosystem, containing many kinds of strange creatures and **HTTP** is the thing that all "animals" on the programmable web have in common.  
 
 There are 2 ways of classifying the services that inhabit the programmable web:
@@ -24,17 +22,19 @@ There are 2 ways of classifying the services that inhabit the programmable web:
 
 ## What is a Web Service (WS)
 
-A server (designed for human-to-machine communication) listening for requests at a particular port over a network, serving web documents (HTML,JSON,XML,images, ...).  
+The technology that allows the communication between applications, independent of the operational system or programming language. A web service is designed to support interoperable machine-to-machine interaction over a network.
+
+![web services](https://www.studytonight.com/rest-web-service/images/what-is-web-services.png)
 
 There are a number of protocols and standards designed for building Web Services.  
 These standards are collectively called **the WS-\* stack**.
 
 ![Web Services Stack](http://www.ibiblio.org/hhalpin/homepage/presentations/www2006/webservicesstack4.gif)
 
-## Types of Web Services
+## Types of Web Services 
 
 - SOAP
-- RESTful
+- REST
 - XML-RPC
 
 ...On Progress...
@@ -45,9 +45,10 @@ The protocol stack is used to define, locate, implement and make web services in
 A Web Service protocol stack typically stacks 4 protocols for:
 
 1. Transport (HTTP)
-2. Messaging (XML)
+2. Messaging (SOAP)
 3. Description (WSDL)
 4. Discovery (UDDI)
+5. Data Exchange format (XML, JSON, ...)
 
 check the list of [Web Service protocols](https://en.wikipedia.org/wiki/List_of_web_service_protocols)
 
@@ -63,14 +64,14 @@ check the list of [Web Service protocols](https://en.wikipedia.org/wiki/List_of_
 
 more on [list of web service protocols](https://en.wikipedia.org/wiki/List_of_web_service_frameworks)
 
-## API vs Web Services
-Technically a Web Service is the application that exposes an API to the web.  
-You can invoke this application programmatically over the web with the API.  
-Think of the Web Service as the specification of the type of an API and the API defines the methods of the communication.
-
 ## SOAP vs. REST
 ![](https://3.bp.blogspot.com/-U1UFgnDpn9g/WZJ6JRwlXqI/AAAAAAAAFX0/uXnbkL7cv2c5yqHsYPBOE3H_r6RoW8qgwCK4BGAYYCw/s1600/A1.PNG)
 ...On Progress...
 
 ## WS-Security
 ...On Progress...
+
+
+## Good Reads
+
+- [rest web services](https://www.studytonight.com/rest-web-service/introduction)

@@ -1,10 +1,11 @@
 # vulnsearch
 A deep look at things related to web application security. Recon methods,technologies, vulnerabilities of my interest/learning at the moment where I'll merge all my notes gathered from books, wiki, videos, articles and own experience.
 
-## Ethical Hacker Roadmap
+## Web Hacker Roadmap
 
 ![web application hacking mindmap](https://github.com/nessun00x/vulnsearch/raw/master/static/images/webhacking_mindmap.png?raw=true)
  
+
 My texts will be based on:
 
 * official documentations:
