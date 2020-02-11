@@ -64,7 +64,7 @@ Look for services running as privileged users, check for their versions and sear
 |         command        |       purpose        |
 | ---------------------- | -------------------- |
 |   `ps -ef`             |  super users   |
-|   `ps aux | grep root` |  same as 'ps aux' but as root |
+|   `ps aux \| grep root` |  same as 'ps aux' but as root |
 |   `dpkg -l`, `rpm -qa`, `httpd -v`, `mysql --version`, etc...  |  list versions of installed software   |
 |   `ps aux`             |  enumerate services that are currently running |
 
