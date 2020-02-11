@@ -5,7 +5,7 @@
 ## First Step: Enumeration
 
 <b>Scenario: </b>
-<span style="color: green;"> You have a shell as a non-root user</span>
+<span style="color: green;"> You have a shell as a non-root user</span>  
 <small>
 Enumeration is key.
 </small>
