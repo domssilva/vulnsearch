@@ -87,6 +87,7 @@ Look for services running as privileged users, check for their versions and sear
 
 ### Good reads
 
+- [GTFOBins](https://gtfobins.github.io)
 - [Basic Linux Privilege Escalation](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
 - [Quick guide to Linux privilege escalation](https://insidetrust.blogspot.com/2011/04/quick-guide-to-linux-privilege.html)
 
