@@ -2,6 +2,7 @@ A list of many hacker's blogs, their research, writeups, forgotten knowledge, et
 
 PS: if page doesn't exist -> [waybackmachine](http://web.archive.org)
 
+https://bitquark.co.uk/blog/
 http://addxorrol.blogspot.com/  
 http://bernardodamele.blogspot.com/  
 http://blog.beford.org/  
