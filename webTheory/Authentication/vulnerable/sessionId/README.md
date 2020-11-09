@@ -1,3 +1,9 @@
+# Server setup
+```bash
+npm install     # install dependencies
+npm start       # run server
+```
+
 # Steps to reproduce
 
 1. open 2 different browsers
