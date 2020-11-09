@@ -3,21 +3,12 @@ My personal study handbook about web hacking.
 I'll share notes on exploitation, vulnerabilities, technologies, recon, useful tools, based on all the resources I get from the internet.
 One day this will become a blog.
 
+### Primer
+Get started at [security-101](https://security-101.vercel.app/) for a non-overwhelming primer and understand how to get started with hacking
+
 ## Ethical Web Hacker Roadmap
 
 ![web application hacking mindmap](https://github.com/nessun00x/vulnsearch/raw/master/static/images/webhacking_mindmap.png?raw=true)
- 
-
-My texts will be based on:
-
-* official documentations:
-	* [MDN](https://developer.mozilla.org/en-US/)
-	* [RFCs](https://en.wikipedia.org/wiki/Request_for_Comments)
-* [stackoverflow](https://stackoverflow.com)
-* books
-
-### Primer
-Get started at [security-101](https://security-101.vercel.app/) for a non-overwhelming primer and understand how to get started with hacking
 
 ### Github Repos
 1. [the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
