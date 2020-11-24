@@ -4,7 +4,7 @@ npm install     # install dependencies
 npm start       # run server
 ```
 
-# Steps to reproduce
+# Steps to Attack
 
 1. open 2 different browsers
 2. keep the devtools storage tab open, to monitor the cookies
