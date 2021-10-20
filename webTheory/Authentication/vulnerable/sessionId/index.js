@@ -62,7 +62,6 @@ app.post('/login', (req, res) => {
     res.cookie('sessionId', nextSessionId);
     db.SESSIONS[nextSessionId] = username;
     nextSessionId += 1;
-
     res.redirect('/');
   } else {
     res.send('authentication failed.');
@@ -86,5 +85,5 @@ app.get('/logout', (req, res) => {
   res.redirect('/');
 });
 
-app.listen(4000);
+app.listen(4000, () => console.log('listening on http://localhost:4000'));
 
